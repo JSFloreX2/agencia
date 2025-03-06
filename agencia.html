@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <header>
+        <div class="header-container">
+          <div class="header-overlay"></div>
+          <div class="header-content">
+            <!-- Aquí tu imagen -->
+            <img src="Logo_PLANET_TOURS_295x90_2-14-removebg-preview.png" alt="Agencia de Viajes" style="max-width: 300px;">
+          </div>
+        </div>
+      </header>
+</header>
+
+<section class="testimonios">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="mi-contenedor-widget" style="margin-top: 250px;">
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-55454875-d7ca-46cd-9e9a-efce732fcde7" data-elfsight-app-lazy></div>
+      </div>
+    </section>
+<footer>
+    <p>&copy; 2025 Agencia de Viajes</p>
+</footer>
+
+<script src="widget.js"></script>
+</body>
+</html>
+<script>
+    window.onload = function() {
+      setTimeout(() => {
+        let widget = document.querySelector('.elfsight-app');
+        if (widget) {
+          widget.style.marginTop = '200px'; // Le das el bajón definitivo
+        }
+      }, 1500);
+    };
+    </script>
